@@ -1,0 +1,428 @@
+body{
+    min-width: 320px;
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 700px;
+}
+.page-header{
+    position: relative;
+    background:#1d2631 url(../images/1x/page-header-bg.jpg) center top no-repeat  ;
+}
+.main-logo-wrap{
+    position: absolute;
+    z-index: 10;
+    top: 30px;
+    left: 30px;
+}
+
+.navigation{
+    position: relative;
+    min-height: 80px;
+    margin-bottom: 410px;
+    background: url(../images/1x/navigation-pattern.png);
+}
+.navigation--mod-js{
+    background: #283645;
+}
+.navigation__list{
+    display: none;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid #000000;
+}
+.navigation__list--mod-js{
+    z-index: 5;
+    display: block;
+}
+
+.navigation__item{
+    margin: 0;
+    padding: 0;
+}
+.navigation__link{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    background-color: #283645;
+    border-top: 1px solid #485461;
+    border-bottom: 1px solid #000000;
+}
+.navigation__link:hover{
+    color: #d22856;
+}
+.burger-wrap{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.burger-wrap__menu-burger-wrap{
+
+}
+.menu-burger-wrap--mod-js{
+    display: none;
+}
+.burger-wrap__menu-burger{
+
+}
+.burger-wrap__menu-burger:hover{
+    fill: #d22856;
+}
+.burger-wrap__menu-cross-wrap{
+    display: none;
+}
+.menu-cross-wrap--mod-js{
+    display: inline-block;
+}
+.burger-wrap__menu-cross{
+
+}
+.burger-wrap__menu-cross:hover{
+    fill: #d22856;
+}
+.page-header__iphone-hand{
+    position: absolute;
+    top: 173px;
+    left: 50%;
+    height: 286px;
+    width: 258px;
+    margin-left: -129px;
+}
+.first-row{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.first-row__title{
+    position: absolute;
+    z-index: 1;
+    top: -370px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: 300;
+}
+.first-row__download-link{
+    display: block;
+    margin: 0;
+    margin-left: 6.25%;
+    margin-right: 6.25%;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 18px;
+    text-decoration: none;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+}
+.first-row__download-link:hover{
+    color: #d22856;
+    background-color: #ffffff;
+}
+.first-row__small-text{
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+    padding-bottom: 35px;
+    padding-left: 7.8%;
+    padding-right: 7.8%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    background: url(../images/svg/apple-logo.svg) 18% top  no-repeat, url(../images/svg/android-logo.svg) 50% 10px  no-repeat, url(../images/svg/microsoft-logo.svg) 82% 12px no-repeat;
+}
+.second-row{
+    margin: 0;
+    padding: 0;
+    padding-top: 35px;
+    background-image:  url(../images/1x/second-row-bg2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.second-row__title{
+    margin: 0;
+    margin-bottom:35px;
+    padding: 0;
+    text-align: center;
+    color: #283645;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+}
+.second-row__title-second{
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 0;
+    text-align: center;
+    color: #283645;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+}
+.our-offers-first{
+    width: 87.5%;
+    margin: 0 auto;
+    text-align: center;
+}
+.our-offers-first__title{
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.our-offers-first__text{
+    margin: 0;
+    margin-bottom: 35px;
+    padding: 0;
+    color: #283645;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.our-offers-second{
+    width: 87.5%;
+    margin: 0 auto;
+    text-align: center;
+}
+.our-offers-second__title{
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.our-offers-second__text{
+    margin: 0;
+    margin-bottom: 35px;
+    padding: 0;
+    color: #283645;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.our-offers-third{
+    width: 87.5%;
+    margin: 0 auto;
+    text-align: center;
+}
+.our-offers-third__title{
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.our-offers-third__text{
+    margin: 0;
+    margin-bottom: 35px;
+    padding: 0;
+    color: #283645;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.timer{
+    display: none;
+}
+.second-row__phone-img{
+    display: block;
+    margin: 0 auto;
+}
+
+.reviews{
+    padding-top: 45px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.gallery-reviews{
+    width: 87.5%;
+    margin: 0 auto ;
+}
+.gallery-reviews__name{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.gallery-reviews__name span{
+    display: none;
+}
+.gallery-reviews__text{
+    text-align: center;
+    color: #283645;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.gallery-reviews__controls{
+    width: 140px;
+    margin: 0 auto;
+    text-align: center;
+}
+.gallery__btn{
+    display: inline-block;
+    vertical-align: top;
+    width: 6px;
+    height: 6px;
+    margin-left: 10px;
+    background-color: #bec2c7;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+}
+.gallery__btn:first-child{
+    margin: 0;
+}
+.gallery__btn--active{
+    background-color: #ffffff;
+    border: 3px solid #283645;
+}
+
+.reviews__table-wrap{
+    display: none;
+}
+.contact{
+    position: relative;
+    height: 615px;
+    padding-top: 60px;
+
+}
+.contact-wrap{
+    position: absolute;
+    left: 50%;
+    margin-left: -160px;
+    width: 320px;
+    height: 500px;
+    background: url(../images/1x/contact-bg-1@1x.png) top  center no-repeat;
+}
+.contact__title{
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    text-align: center;
+    color: #283645;
+    font-size: 24px;
+    font-weight: 300;
+}
+.call-to-me{
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    text-align: center;
+}
+.call-to-me__title{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #283645;
+    font-size: 18px;
+    font-weight: 600;
+}
+.call-to-me__link{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #d22856;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.call-to-me__link:hover{
+    color: #283645;
+    text-decoration: underline;
+    text-decoration-color: #283645;
+}
+
+
+.go-to-me{
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    text-align: center;
+}
+.go-to-me__title{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #283645;
+    font-size: 18px;
+    font-weight: 600;
+}
+.go-to-me__link{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #d22856;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.go-to-me__link:hover{
+    color: #283645;
+    text-decoration: underline;
+    text-decoration-color: #283645;
+}
+
+.write-to-me{
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    text-align: center;
+}
+.write-to-me__title{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #283645;
+    font-size: 18px;
+    font-weight: 600;
+}
+.write-to-me__link{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #d22856;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.write-to-me__link:hover{
+    color: #283645;
+    text-decoration: underline;
+    text-decoration-color: #283645;
+}
+
+
+.page-footer__map{
+    width: 100%;
+    height: 100%;
+}
+
+.page-footer{
+    display: none;
+}
