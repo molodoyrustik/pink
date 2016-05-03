@@ -1,0 +1,199 @@
+@media screen and (min-width: 700px){
+    .container{
+        max-width: 1200px;
+    }
+    .page-header{
+        height: 730px;
+        background-image:url(../images/table/1x/background-tab@1x.jpg);
+        background-size: 1200px 729px;
+    }
+    @media (min-resolution: 2dppx) {
+        .page-header{
+            background-image:url(../images/table/2x/background-tab@2x.jpg);
+        }
+    }
+    @media (min-resolution: 3dppx) {
+        .page-header{
+            background-image:url(../images/table/3x/background-tab@3x.jpg);
+        }
+    }
+    .main-logo-wrap{
+        left: 40px;
+    }
+    .navigation{
+        min-height: 110px;
+        margin-bottom: 0px;
+    }
+    .navigation__list{
+        top: 110px;
+        width: 100%;
+    }
+    .burger-wrap{
+        top: 45px;
+        right: 40px;
+    }
+    .page-header__iphone-hand{
+        position: absolute;
+        top: 185px;
+        left: 50%;
+        height: 545px;
+        width: 700px;
+        margin-left: -350px;
+    }
+    .first-row{
+        position: relative;
+        width: 300px;
+        margin: 0;
+        margin-top: 100px;
+        margin-left: 6%;
+    }
+    .first-row__title{
+        width: 180px;
+        position: static;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 40px;
+        line-height: 42px;
+    }
+    .first-row__download-link{
+        margin: 0;
+        margin-left: 0%;
+        margin-right: 30px;
+        margin-bottom: 35px;
+    }
+    .first-row__small-text{
+        margin: 0;
+        padding: 0;
+        padding-top: 100px;
+        padding-bottom: 35px;
+        padding-left: 0%;
+        padding-right: 0%;
+        font-size: 18px;
+    }
+
+    .second-row{
+        height: 1170px;
+        padding-top: 55px;
+    }
+
+    .second-row-wrap{
+        background-image:  url(../images/table/1x/second-row-bg2-table@1x.png);
+        background-size: 1200px 634px;
+    }
+    @media (min-resolution: 2dppx) {
+        .second-row-wrap{
+            background-image:  url(../images/table/2x/second-row-bg2-table@2x.png);
+        }
+    }
+    @media (min-resolution: 3dppx) {
+        .second-row-wrap{
+            background-image:  url(../images/table/3x/second-row-bg2-table@3x.png);
+        }
+    }
+    .second-row__title{
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 40px;
+    }
+
+    .second-row__title-second{
+        width: 350px;
+        margin: 0 auto;
+        margin-bottom: 45px;
+        font-size: 40px;
+        line-height: 42px;
+    }
+
+    .our-offers-wrap{
+        float: right;
+        width: 310px;
+        margin-top: 90px;
+        margin-right: 6%;
+    }
+
+    .our-offers-first{
+        width: 100%;
+        margin: 0;
+        text-align: left;
+    }
+
+    .our-offers-second{
+        width: 100%;
+        margin: 0;
+        text-align: left;
+    }
+    .our-offers-third{
+        width: 100%;
+        margin: 0;
+        text-align: left;
+    }
+    .our-offers-third__text{
+        margin-bottom: 0px;
+    }
+
+    .second-row__phone-img{
+        display: block;
+        margin: 0;
+        margin-left: 6%;
+        margin-bottom: 55px;
+    }
+
+    .timer{
+        display: block;
+        width: 625px;
+        margin: 0 auto;
+        margin-bottom: 130px;
+    }
+    .timer__img{
+        float: left;
+        height: 300px;
+    }
+    .timer__titel{
+        float: left;
+        width: 170px;
+        margin-left: 8%;
+        margin-bottom: 15px;
+        text-align: left;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .timer__text{
+        float: left;
+        width: 310px;
+        margin-left: 8%;
+        margin-bottom: 15px;
+        text-align: left;
+        color: #283645;
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+    .timer__link{
+        float: left;
+        margin-left: 8%;
+        color: #d22856;
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+    .timer__link:hover{
+        color: #283645;
+    }
+
+    .reviews{
+        padding-top: 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

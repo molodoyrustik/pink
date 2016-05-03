@@ -1,3 +1,22 @@
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
 body{
     min-width: 320px;
     font-size: 14px;
@@ -10,8 +29,24 @@ body{
 }
 .page-header{
     position: relative;
-    background:#1d2631 url(../images/1x/page-header-bg.jpg) center top no-repeat  ;
+    background-color: #1d2631;
+    background-image:url(../images/mobile/1x/background-mob@1x.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 700px 460px;
 }
+
+@media (min-resolution: 2dppx) {
+    .page-header{
+        background-image: url(../images/mobile/2x/background-mob@2x.jpg);
+    }
+}
+@media (min-resolution: 3dppx) {
+    .page-header{
+        background-image: url(../images/mobile/3x/background-mob@3x.jpg);
+    }
+}
+
 .main-logo-wrap{
     position: absolute;
     z-index: 10;
@@ -23,8 +58,20 @@ body{
     position: relative;
     min-height: 80px;
     margin-bottom: 410px;
-    background: url(../images/1x/navigation-pattern.png);
+    background-image: url(../images/mobile/1x/navigation-pattern-mob@1x.png);
+    background-size: 100px 50px;
 }
+@media (min-resolution: 2dppx) {
+    .navigation{
+        background-image: url(../images/mobile/2x/navigation-pattern-mob@2x.png);
+    }
+}
+@media (min-resolution: 3dppx) {
+    .navigation{
+        background-image: url(../images/mobile/3x/navigation-pattern-mob@3x.png);
+    }
+}
+
 .navigation--mod-js{
     background: #283645;
 }
@@ -153,13 +200,29 @@ body{
     font-weight: 300;
     background: url(../images/svg/apple-logo.svg) 18% top  no-repeat, url(../images/svg/android-logo.svg) 50% 10px  no-repeat, url(../images/svg/microsoft-logo.svg) 82% 12px no-repeat;
 }
+
+
 .second-row{
     margin: 0;
     padding: 0;
     padding-top: 35px;
-    background-image:  url(../images/1x/second-row-bg2.png);
+
+}
+.second-row-wrap{
+    background-image:  url(../images/mobile/1x/second-row-bg2-mob@1x.png);
+    background-size: 700px 694px;
     background-repeat: no-repeat;
     background-position: bottom;
+}
+@media (min-resolution: 2dppx) {
+    .second-row-wrap{
+        background-image:  url(../images/mobile/2x/second-row-bg2-mob@2x.jpg);
+    }
+}
+@media (min-resolution: 3dppx) {
+    .second-row-wrap{
+        background-image:  url(../images/mobile/3x/second-row-bg2-mob@3x.jpg);
+    }
 }
 .second-row__title{
     margin: 0;
@@ -254,8 +317,6 @@ body{
 
 .reviews{
     padding-top: 45px;
-    background-repeat: no-repeat;
-    background-position: center bottom;
 }
 .gallery-reviews{
     width: 87.5%;
@@ -318,7 +379,20 @@ body{
     margin-left: -160px;
     width: 320px;
     height: 500px;
-    background: url(../images/1x/contact-bg-1@1x.png) top  center no-repeat;
+    background-image: url(../images/mobile/1x/contact-bg-mob@1x.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 700px auto;
+}
+@media (min-resolution: 2dppx) {
+    .contact-wrap{
+        background-image: url(../images/mobile/2x/contact-bg-mob@2x.png);
+    }
+}
+@media (min-resolution: 3dppx) {
+    .contact-wrap{
+        background-image: url(../images/mobile/3x/contact-bg-mob@3x.png);
+    }
 }
 .contact__title{
     margin: 0;
@@ -416,7 +490,6 @@ body{
     text-decoration: underline;
     text-decoration-color: #283645;
 }
-
 
 .page-footer__map{
     width: 100%;
