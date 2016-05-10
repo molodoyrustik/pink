@@ -1,0 +1,76 @@
+@media screen and (min-width: 1440px){
+    .container{
+        max-width: 100%;
+    }
+    .page-header{
+        background-image:url(../images/desktopFull/1x/background-deskFull@1x.jpg);
+        background-size: 100% 855px;
+    }
+    @media (min-resolution: 2dppx) {
+        .page-header{
+            background-image:url(../images/desktopFull/2x/background-deskFull@2x.jpg);
+        }
+    }
+    @media (min-resolution: 3dppx) {
+        .page-header{
+            background-image:url(../images/desktopFull/3x/background-deskFull@3x.jpg);
+        }
+    }
+    .main-logo-wrap{
+        left: 17.3%;
+    }
+    .navigation__list{
+        left: 40%;
+    }
+    .first-row{
+        margin-left: 17.3%;
+    }
+    .second-row{
+        background-image:  url(../images/desktop/1x/second-row-bg2-desk@1x.png);
+        background-size: 100% 1045px;
+    }
+    @media (min-resolution: 2dppx) {
+        .second-row{
+            background-image:  url(../images/desktop/2x/second-row-bg2-desk@2x.png);
+        }
+    }
+    @media (min-resolution: 3dppx) {
+        .second-row{
+            background-image:  url(../images/desktop/3x/second-row-bg2-desk@3x.png);
+        }
+    }
+    .reviews{
+        background-image: url(../images/desktop/1x/reviews-desk@1x.png);
+        background-size: 100% 530px;
+    }
+    @media (min-resolution: 2dppx){
+        .reviews{
+            background-image: url(../images/desktop/2x/reviews-desk@2x.png);
+        }
+    }
+    @media (min-resolution: 3dppx){
+        .reviews{
+            background-image: url(../images/desktop/3x/reviews-desk@3x.png);
+        }
+    }
+    .page-footer__logo{
+        margin-left: 17.5%;
+    }
+
+    .copyright{
+        margin-right: 17.5%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

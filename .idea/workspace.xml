@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4747c61b-5c30-48e2-aee5-2519ca50123a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/mobile/1x/contact-bg-mob@1x.png" afterPath="$PROJECT_DIR$/app/images/mobile/1x/contact-bg-mob@1x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/mobile/2x/contact-bg-mob@2x.png" afterPath="$PROJECT_DIR$/app/images/mobile/2x/contact-bg-mob@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/mobile/3x/contact-bg-mob@3x.png" afterPath="$PROJECT_DIR$/app/images/mobile/3x/contact-bg-mob@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/desktop.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/desktopFull.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/1x/Pink-logo-3@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/1x/Pink-logo-footer-3@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/1x/iphone-hand-3@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/1x/iphone-screen-3-1@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/1x/iphone-screen-3-2@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/1x/iphone-screen-3-3@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/2x/Pink-logo-3@2x.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css" afterPath="$PROJECT_DIR$/app/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/table.css" afterPath="$PROJECT_DIR$/app/css/table.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/svg/facebook.svg" afterPath="$PROJECT_DIR$/app/images/svg/facebook.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/svg/glukhanko.svg" afterPath="$PROJECT_DIR$/app/images/svg/glukhanko.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/svg/htmlacademy.svg" afterPath="$PROJECT_DIR$/app/images/svg/htmlacademy.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/svg/no.svg" afterPath="$PROJECT_DIR$/app/images/svg/no.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/svg/twitter.svg" afterPath="$PROJECT_DIR$/app/images/svg/twitter.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/svg/yes.svg" afterPath="$PROJECT_DIR$/app/images/svg/yes.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/svg/youtube.svg" afterPath="$PROJECT_DIR$/app/images/svg/youtube.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/svg/quotes.svg" afterPath="$PROJECT_DIR$/app/images/svg/quotes.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
     </list>
     <ignored path="pink.iws" />
@@ -35,40 +35,7 @@
     <favorites_list name="pink" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.806452">
-              <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
-              <folding>
-                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="table.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/css/table.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-47.80645">
-              <caret line="358" column="25" selection-start-line="358" selection-start-column="25" selection-end-line="358" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60144925">
-              <caret line="137" column="20" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -87,13 +54,16 @@
         <option value="$PROJECT_DIR$/app/images/svg/twitter.svg" />
         <option value="$PROJECT_DIR$/app/images/svg/youtube.svg" />
         <option value="$PROJECT_DIR$/app/images/svg/facebook.svg" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/images/svg/glukhanko.svg" />
         <option value="$PROJECT_DIR$/app/images/svg/htmlacademy.svg" />
         <option value="$PROJECT_DIR$/app/images/svg/yes.svg" />
         <option value="$PROJECT_DIR$/app/images/svg/no.svg" />
-        <option value="$PROJECT_DIR$/app/css/table.css" />
+        <option value="$PROJECT_DIR$/app/images/svg/quotes.svg" />
         <option value="$PROJECT_DIR$/app/css/main.css" />
+        <option value="$PROJECT_DIR$/app/css/table.css" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/css/desktop.css" />
+        <option value="$PROJECT_DIR$/app/css/desktopFull.css" />
       </list>
     </option>
   </component>
@@ -138,7 +108,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -186,52 +155,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="svg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,6 +169,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -304,8 +235,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1390625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -345,10 +276,42 @@
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/table.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="5" selection-start-line="79" selection-start-column="4" selection-end-line="83" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/table.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="358" column="25" selection-start-line="358" selection-start-column="25" selection-end-line="358" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="214" column="30" selection-start-line="214" selection-start-column="19" selection-end-line="214" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -356,7 +319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -364,7 +326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="498" column="12" selection-start-line="498" selection-start-column="1" selection-end-line="498" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -372,9 +333,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -382,9 +340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -392,7 +347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="170" column="17" selection-start-line="170" selection-start-column="17" selection-end-line="170" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -400,7 +354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="483" column="20" selection-start-line="483" selection-start-column="20" selection-end-line="483" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -408,9 +361,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="117" column="33" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -418,7 +368,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -426,9 +375,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="81" column="15" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="15" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -436,7 +382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="147" column="0" selection-start-line="147" selection-start-column="0" selection-end-line="162" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -444,7 +389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26415095">
           <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -452,7 +396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18867925">
           <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -460,7 +403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18867925">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -468,7 +410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18867925">
           <caret line="5" column="20" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -476,15 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/svg/quotes.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -492,7 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -500,32 +431,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3773585">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/svg/quotes.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6792453">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5217391">
+          <caret line="497" column="17" selection-start-line="497" selection-start-column="17" selection-end-line="497" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/css/table.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-47.80645">
-          <caret line="358" column="25" selection-start-line="358" selection-start-column="25" selection-end-line="358" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.5217391">
+          <caret line="432" column="5" selection-start-line="423" selection-start-column="4" selection-end-line="432" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/desktopFull.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/desktop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36231884">
+          <caret line="479" column="14" selection-start-line="479" selection-start-column="14" selection-end-line="479" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.806452">
-          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60144925">
-          <caret line="137" column="20" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.51811594">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
           <folding />
         </state>
       </provider>

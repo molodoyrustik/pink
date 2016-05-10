@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="bower/normalize-strings/normalize.js">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/desktopFull.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <!--JS-->
     <script src="bower/jquery/dist/jquery.js"></script>
@@ -22,10 +24,13 @@
         <header class="page-header">
 
             <div class="main-logo-wrap">
-                <picture>
-                    <source media="(min-width: 700px)" srcset="images/table/1x/pink-logo-tab@1x.png, images/table/2x/pink-logo-tab@2x.png 2x, images/table/3x/pink-logo-tab@3x.png 3x" >
-                    <img src="images/mobile/1x/pink-logo-mob@1x.png" srcset="images/mobile/2x/pink-logo-mob@2x.png 2x, images/mobile/3x/pink-logo-mob@3x.png 3x" alt="" class="main-logo-wrap__img">
-                </picture>
+                <a href="" class="logo-link">
+                    <picture>
+                        <source media="(min-width: 1200px)" srcset="images/desktop/1x/pink-logo-desk@1x.png, images/desktop/2x/pink-logo-desk@2x.png 2x, images/desktop/3x/pink-logo-desk@3x.png 3x">
+                        <source media="(min-width: 700px)" srcset="images/table/1x/pink-logo-tab@1x.png, images/table/2x/pink-logo-tab@2x.png 2x, images/table/3x/pink-logo-tab@3x.png 3x" >
+                        <img src="images/mobile/1x/pink-logo-mob@1x.png" srcset="images/mobile/2x/pink-logo-mob@2x.png 2x, images/mobile/3x/pink-logo-mob@3x.png 3x" alt="" class="main-logo-wrap__img">
+                    </picture>
+                </a>
             </div>
 
             <nav class="navigation">
@@ -77,6 +82,7 @@
             </div>
 
             <picture>
+                <source media="(min-width: 1200px)" srcset="images/desktop/1x/iphone-hand-desk@1x.png, images/desktop/2x/iphone-hand-desk@2x.png, images/desktop/3x/iphone-hand-desk@3x.png 3x" >
                 <source media="(min-width: 700px)" srcset="images/table/1x/iphone-hand-tab@1x.png, images/table/2x/iphone-hand-tab@2x.png 2x, images/table/3x/iphone-hand-tab@3x.png 3x" >
                 <img src="images/mobile/1x/iphone-hand-mob@1x.png" srcset="images/mobile/2x/iphone-hand-mob@2x.png 2x, images/mobile/3x/iphone-hand-mob@3x.png 3x" alt="" class="page-header__iphone-hand">
             </picture>
@@ -143,6 +149,8 @@
                         <i class="gallery__btn"></i>
                         <i class="gallery__btn"></i>
                     </div>
+                    <i class="gallery__left-desk-btn"></i>
+                    <i class="gallery__right-desk-btn"></i>
                 </div>
                     <div class="reviews__table-wrap">
                         <table class="reviews__table">
@@ -214,7 +222,12 @@
 
     <footer class="page-footer">
         <div class="container">
-            <img src="images/table/1x/pink-logo-footer-tab@1x.png" srcset="images/table/2x/pink-logo-footer-tab@2sx.png 2x, images/table/3x/pink-logo-footer-tab@3x.png 3x" class='page-footer__logo' alt="">
+            <a href="" class="page-footer__logo-link">
+                <picture>
+                    <source media="(min-width:1200px)" srcset="images/desktop/1x/pink-logo-footer-desk@1x.png, images/desktop/2x/pink-logo-footer-desk@2x.png 2x images/desktop/3x/pink-logo-footer-desk@3x.png 3x ">
+                    <img src="images/table/1x/pink-logo-footer-tab@1x.png" srcset="images/table/2x/pink-logo-footer-tab@2x.png 2x, images/table/3x/pink-logo-footer-tab@3x.png 3x" class='page-footer__logo' alt="">
+                </picture>
+            </a>
             <div class="copyright">
                 Website by <span> for </span>
             </div>

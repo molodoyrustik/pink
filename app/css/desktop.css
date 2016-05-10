@@ -1,0 +1,496 @@
+@media screen and (min-width: 1200px){
+    .container{
+        max-width: 1400px;
+    }
+    .page-header{
+        height: 855px;
+        background-image:url(../images/desktop/1x/background-desk@1x.jpg);
+        background-size: 1440px 855px;
+    }
+    @media (min-resolution: 2dppx) {
+        .page-header{
+            background-image:url(../images/desktop/2x/background-desk@2x.jpg);
+        }
+    }
+    @media (min-resolution: 3dppx) {
+        .page-header{
+            background-image:url(../images/desktop/3x/background-desk@3x.jpg);
+        }
+    }
+    .main-logo-wrap{
+        left: 130px;
+    }
+    .navigation__list{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        top: 0px;
+        left: 450px;
+        min-height: 110px;
+        width: 630px;
+        font-size: 0;
+        list-style: none;
+        border-top: 0;
+    }
+
+    .navigation__item{
+        dis play: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    .navigation__link{
+        padding-top: 0px;
+        padding-bottom: 5px;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 300;
+        text-transform: none;
+        text-decoration: none;
+        text-align: center;
+        background-color: transparent;
+        border-top: none;
+        border-bottom: none;
+    }
+    .navigation__link:hover{
+        color: #ffffff;
+        border-bottom: 2px solid #ffffff ;
+    }
+    .burger-wrap{
+        display: none;
+    }
+    .page-header__iphone-hand{
+        position: absolute;
+        top: 210px;
+        left: 50%;
+        height: 645px;
+        width: 1050px;
+        margin-left: -525px;
+    }
+    .first-row{
+        position: relative;
+        width: 300px;
+        margin: 0;
+        margin-top: 100px;
+        margin-left: 130px;
+    }
+    .first-row__title{
+        width: 245px;
+        position: static;
+        margin: 0 auto;
+        margin-bottom: 45px;
+        text-align: center;
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .first-row__download-link{
+        width: 100%;
+        margin: 0;
+        margin-left: 0%;
+        margin-right: 0px;
+        margin-bottom: 65px;
+    }
+    .first-row__small-text{
+        line-height: 24px;
+    }
+
+    .second-row{
+        padding-top: 70px;
+        background-image:  url(../images/desktop/1x/second-row-bg2-desk@1x.png);
+        background-size: 1400px 1045px;
+        background-repeat:  no-repeat;
+        background-position:  center bottom;
+    }
+    @media (min-resolution: 2dppx) {
+        .second-row{
+            background-image:  url(../images/desktop/2x/second-row-bg2-desk@2x.png);
+        }
+    }
+    @media (min-resolution: 3dppx) {
+        .second-row{
+            background-image:  url(../images/desktop/3x/second-row-bg2-desk@3x.png);
+        }
+    }
+    .second-row-wrap{
+        margin-bottom: 60px;
+        background-image:  none;
+/    }
+
+    .second-row__title{
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 50px;
+    }
+    .second-row__title-second{
+        width: 420px;
+        margin-bottom: 70px;
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .our-offers-img-wrap{
+        width: auto;
+        margin: 0;
+    }
+    .our-offers-wrap{
+        float: none;
+        width: 940px;
+        padding-top: 0px;
+        margin: 0 auto;
+        font-size: 0;
+    }
+    .our-offers-first{
+        display: inline-block;
+        vertical-align: top;
+        width: 300px;
+        margin: 0;
+        padding-top: 360px;
+        text-align: center;
+        background-image: url(../images/desktop/1x/our-offers-first-desk@1x.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 292px 302px;
+    }
+    @media (min-resolution: 2dppx){
+        .our-offers-third{
+            background-image: url(../images/desktop/2x/our-offers-first-desk@2x.png);
+        }
+    }
+    @media (min-resolution: 3dppx){
+        .our-offers-third{
+            background-image: url(../images/desktop/3x/our-offers-first-desk@3x.png);
+        }
+    }
+
+    .our-offers-first__title{
+        margin-bottom: 15px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .our-offers-first__text{
+        width: 240px;
+        margin: 0 auto;
+        margin-bottom: 0px;
+        color: #283645;
+        font-size: 16px;
+    }
+    .our-offers-second{
+        display: inline-block;
+        vertical-align: top;
+        width: 300px;
+        margin: 0;
+        padding-top: 360px;
+        text-align: center;
+        background-image: url(../images/desktop/1x/our-offers-second-desk@1x.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 292px 302px;
+    }
+    @media (min-resolution: 2dppx){
+        .our-offers-third{
+            background-image: url(../images/desktop/2x/our-offers-second-desk@2x.png);
+        }
+    }
+    @media (min-resolution: 3dppx){
+        .our-offers-third{
+            background-image: url(../images/desktop/3x/our-offers-second-desk@3x.png);
+        }
+    }
+    .our-offers-second__title{
+        margin-bottom: 15px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .our-offers-second__text{
+        width: 240px;
+        margin: 0 auto;
+        margin-bottom: 0px;
+        color: #283645;
+        font-size: 16px;
+    }
+    .our-offers-third{
+        display: inline-block;
+        vertical-align: top;
+        width: 300px;
+        margin: 0;
+        padding-top: 360px;
+        text-align: center;
+        background-image: url(../images/desktop/1x/our-offers-third-desk@1x.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 292px 302px;
+    }
+    @media (min-resolution: 2dppx){
+        .our-offers-third{
+            background-image: url(../images/desktop/2x/our-offers-third-desk@2x.png);
+        }
+    }
+    @media (min-resolution: 3dppx){
+        .our-offers-third{
+            background-image: url(../images/desktop/3x/our-offers-third-desk@3x.png);
+        }
+    }
+    .our-offers-third__title{
+        margin-bottom: 15px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .our-offers-third__text{
+        width: 240px;
+        margin: 0 auto;
+        margin-bottom: 0px;
+        color: #283645;
+        font-size: 16px;
+    }
+    .second-row__phone-img{
+        display: none;
+    }
+    .timer{
+        display: block;
+        width: 940px;
+        margin: 0 auto;
+        margin-bottom: 70px;
+    }
+    .timer__img{
+        float: left;
+        height: auto;
+    }
+    .timer__titel{
+        width: auto;
+        margin-left: 100px;
+        text-align: left;
+        font-size: 35px;
+    }
+    .timer__text{
+        float: left;
+        width: 460px;
+        margin-top: 0;
+        margin-left: 100px;
+        margin-bottom: 30px;
+        text-align: left;
+        font-size: 16px;
+    }
+    .timer__link{
+        float: left;
+        margin-left: 100px;
+        font-size: 16px;
+    }
+    .reviews{
+        height: 940px;
+        margin: 0;
+        padding-top: 0px;
+        background-image: url(../images/desktop/1x/reviews-desk@1x.png);
+        background-size: 1400px 530px;
+    }
+    @media (min-resolution: 2dppx){
+        .reviews{
+            background-image: url(../images/desktop/2x/reviews-desk@2x.png);
+        }
+    }
+    @media (min-resolution: 3dppx){
+        .reviews{
+            background-image: url(../images/desktop/3x/reviews-desk@3x.png);
+        }
+    }
+    .gallery-reviews{
+        position: relative;
+        width: 940px;
+        margin-bottom: 300px;
+
+    }
+    .gallery-reviews__name{
+        position: absolute;
+        left: 50%;
+        top: 315px;
+        width: 300px;
+        margin: 0;
+        margin-left: -150px;
+        padding: 0;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    .gallery-reviews__name span{
+        display: block;
+        margin: 0;
+        padding: 0;
+        color: #283645;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .gallery-reviews__text{
+        width: 680px;
+        margin: 0 auto;
+        padding-top: 180px;
+        padding-left: 130px;
+        padding-right: 130px;
+        margin-bottom: 0px;
+        background-image: url(../images/svg/quotes.svg);
+        background-repeat: no-repeat;
+        background-position: center 70px;
+    }
+    .gallery__left-desk-btn{
+        position: absolute;
+        top: 215px;
+        left: 0;
+        display: block;
+        width: 22px;
+        height: 45px;
+        background-image: url(../images/desktop/1x/left-arrow-desk@1x.png);
+        background-repeat: no-repeat;
+        background-size: 22px 45px;
+        cursor: pointer;
+    }
+    @media (min-resolution: 2dppx){
+        .gallery__left-desk-btn {
+            background-image: url(../images/desktop/2x/left-arrow-desk@2x.png);
+        }
+    }
+    @media (min-resolution: 3dppx){
+        .gallery__left-desk-btn {
+            background-image: url(../images/desktop/3x/left-arrow-desk@3x.png);
+        }
+    }
+    .gallery__right-desk-btn{
+        position: absolute;
+        top: 215px;
+        right: 0;
+        display: block;
+        width: 22px;
+        height: 45px;
+        background-image: url(../images/desktop/1x/right-arrow-desk@1x.png);
+        background-repeat: no-repeat;
+        background-size: 22px 45px;
+        cursor: pointer;
+
+    }
+    @media (min-resolution: 2dppx){
+        .gallery__right-desk-btn{
+            background-image: url(../images/desktop/2x/right-arrow-desk@2x.png);
+        }
+    }
+    @media (min-resolution: 3dppx){
+        .gallery__right-desk-btn{
+            background-image: url(../images/desktop/3x/right-arrow-desk@3x.png);
+        }
+    }
+    .gallery-reviews__controls{
+        display: none;
+    }
+
+    .reviews__table-wrap{
+        display: block;
+        width: 940px;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+    .reviews__table{
+        width: 940px;
+    }
+    .reviews__td-other{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 18px;
+    }
+    .reviews__td-other span{
+        display: block;
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 300;
+    }
+    .reviews__td{
+        padding-left: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .contact{
+        height: auto;
+        padding: 0;
+    }
+    .contact-wrap{
+        left: 50%;
+        margin-left: -600px;
+        padding: 0;
+        padding-top: 50px;
+        width: 1200px;
+        height: 450px;
+        background-image: url(../images/desktop/1x/contact-bg-desk@1x.png);
+        background-size: 1200px 470px;
+    }
+    @media (min-resolution: 2dppx) {
+        .contact-wrap{
+            background-image: url(../images/desktop/2x/contact-bg-desk@2x.png);
+        }
+    }
+    @media (min-resolution: 3dppx) {
+        .contact-wrap{
+            background-image: url(../images/desktop/3x/contact-bg-desk@3x.png);
+        }
+    }
+    .contact__title{
+        width: 460px;
+        margin: 0 auto;
+        margin-bottom: 60px;;
+        font-size: 50px;
+        line-height: 60px;
+        font-weight: 300;
+    }
+    .contact-all-wrap{
+        display: flex;
+        justify-content: space-around;
+        width: 820px;
+        margin: 0 auto;
+    }
+    .call-to-me{
+        order: 1;
+        float: none;
+        margin: 0;
+        margin-bottom: 0px;
+    }
+    .call-to-me__title{
+        margin-bottom: 25px;
+    }
+    .write-to-me{
+        order:3;
+        float: none;
+        margin-bottom: 0px;
+    }
+    .write-to-me__title{
+        margin-bottom: 25px;
+    }
+    .go-to-me{
+        order:2;
+        margin-bottom: 0px;;
+    }
+    .go-to-me__title{
+        margin-bottom: 25px;
+    }
+    .page-footer__map{
+        width: 100%;
+        height: 875px;
+    }
+    .page-footer{
+        min-height: 125px;
+        padding-top: 75px;
+    }
+    .page-footer__logo{
+        margin-left: 130px;
+    }
+    .social{
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .copyright{
+        margin-right: 130px;
+        margin-top: 15px;
+        font-size: 18px;
+    }
+
+
+}

@@ -1,7 +1,7 @@
 @media screen and (min-width: 700px){
     .container{
         max-width: 1200px;
-    }
+     }
     .page-header{
         height: 730px;
         background-image:url(../images/table/1x/background-tab@1x.jpg);
@@ -18,7 +18,7 @@
         }
     }
     .main-logo-wrap{
-        left: 40px;
+         left: 6%;
     }
     .navigation{
         min-height: 110px;
@@ -73,7 +73,7 @@
     }
 
     .second-row{
-        height: 1170px;
+        height: auto;
         padding-top: 55px;
     }
 
@@ -256,6 +256,7 @@
     }
     .reviews__td-other:first-child{
         background-color: transparent;
+        border: none;
      }
     .reviews__td-other:nth-child(2){
         background-image: url(../images/table/1x/hit-tab@1x.png);
@@ -354,6 +355,9 @@
         clear: both;
         margin-bottom: 0px;;
     }
+    .page-footer__map{
+        background-color: green;
+    }
     .page-footer{
         display: block;
         min-height: 95px;
@@ -366,6 +370,7 @@
         width: 300px;
         margin: 0 auto;
         margin-top: 40px;
+        text-align: center;
     }
     .social__list{
         margin: 0;
