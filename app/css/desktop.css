@@ -37,7 +37,7 @@
     }
 
     .navigation__item{
-        dis play: inline-block;
+        display: inline-block;
         margin: 0;
         padding: 0;
     }
@@ -116,7 +116,7 @@
     .second-row-wrap{
         margin-bottom: 60px;
         background-image:  none;
-/    }
+    }
 
     .second-row__title{
         margin: 0;
@@ -432,11 +432,11 @@
         }
     }
     .contact__title{
-        width: 460px;
+        width: 465px;
         margin: 0 auto;
         margin-bottom: 60px;;
         font-size: 50px;
-        line-height: 60px;
+        line-height: 50px;
         font-weight: 300;
     }
     .contact-all-wrap{
@@ -471,7 +471,7 @@
     }
     .page-footer__map{
         width: 100%;
-        height: 875px;
+        height: 870px;
     }
     .page-footer{
         min-height: 125px;

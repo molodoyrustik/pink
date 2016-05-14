@@ -355,9 +355,7 @@
         clear: both;
         margin-bottom: 0px;;
     }
-    .page-footer__map{
-        background-color: green;
-    }
+
     .page-footer{
         display: block;
         min-height: 95px;

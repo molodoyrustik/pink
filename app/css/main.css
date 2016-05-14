@@ -371,7 +371,7 @@ body{
 }
 .contact{
     position: relative;
-    height: 615px;
+
     padding-top: 60px;
 
 }
@@ -495,8 +495,7 @@ body{
 
 .page-footer__map{
     width: 100%;
-    height: 100%;
-    background-color: green;
+    height: 675px;
 }
 
 .page-footer{
